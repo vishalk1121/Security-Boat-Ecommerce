@@ -1,5 +1,5 @@
 import nextConnect from 'next-connect';
-import User from '../../models/User';
+import User from '../../Models/User';
 import { hashPassword } from '../../lib/auth';
 import { signToken } from '../../lib/auth';
 
