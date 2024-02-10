@@ -1,7 +1,7 @@
 import nextConnect from 'next-connect';
-import User from '../../models/User';
-import { comparePassword } from '../../lib/auth';
-import { signToken } from '../../lib/auth';
+import User from '../Models/User';
+import { comparePassword } from '../lib/auth';
+import { signToken } from '../lib/auth';
 
 const login = nextConnect();
 
